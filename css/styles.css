@@ -1,0 +1,35 @@
+/* Sidebar Transition */
+.navbar-nav{
+    transition: 0.5s;
+    position: relative;!important
+}
+
+li a:hover{
+    background-color: #a7f3d0;
+    /* border: 2px solid red; */
+    border-radius: 15px 50px 30px;
+    transition: 0.3s;
+}
+.navbar-expand a:hover{
+    border-radius: 15px 50px 30px;
+}
+/* Topbar CSS Font */
+.navbar-expand{
+    /* background-color: aqua; */
+    font-style: italic;
+    font-size: 20px;
+    font-family: Book Antiqua;
+    position: relative;
+}
+.collapse a:hover{
+    background-color: rgb(109, 230, 72);
+}
+.sidebar-heading{
+    font-family: Arial;
+}
+.ul{
+    background-color: black;
+}
+.topbar{
+    position: relative;
+}
